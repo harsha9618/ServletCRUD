@@ -1,4 +1,4 @@
-package net.javaguides.registration.dao;
+package net.hr.registration.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.javaguides.registration.model.Employee;
+import net.hr.registration.model.Employee;
 
 public class EmployeeDao {
 	private static String jdbcURL="jdbc:mysql://localhost:3306/mysql?allowPublicKeyRetrieval=true&useSSL=false";

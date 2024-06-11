@@ -1,4 +1,4 @@
-package net.javaguides.registration.model;
+package net.hr.registration.model;
 
 public class Employee {
 	

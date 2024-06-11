@@ -1,4 +1,4 @@
-package net.javaguides.registration.controller;
+package net.hr.registration.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,10 +13,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
-
-import net.javaguides.registration.dao.EmployeeDao;
-import net.javaguides.registration.model.Employee;
+import net.hr.registration.dao.EmployeeDao;
+import net.hr.registration.model.Employee;
 
 /**
  * Servlet implementation class EmployeeServlet
